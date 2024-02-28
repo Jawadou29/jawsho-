@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0f256936.css",
+    "main.js": "/static/js/main.e9fbd428.js",
+    "static/js/787.4a12dff8.chunk.js": "/static/js/787.4a12dff8.chunk.js",
+    "static/media/cat5.jpg": "/static/media/cat5.9a2ffdee0095ba443e55.jpg",
+    "static/media/cat2.jpg": "/static/media/cat2.146d35edfc672869867c.jpg",
+    "static/media/sale.jpg": "/static/media/sale.43d3890603d83f66daa4.jpg",
+    "static/media/cat3.jpg": "/static/media/cat3.317748e798089970eb4c.jpg",
+    "static/media/cat4.jpg": "/static/media/cat4.d5a02938b8f1033e61c4.jpg",
+    "static/media/People buying school supplies-cuate.svg": "/static/media/People buying school supplies-cuate.b29284d039b983d023aadd48af8db303.svg",
+    "static/media/cat1.jpg": "/static/media/cat1.ac2611a4dc339f2d1af8.jpg",
+    "index.html": "/index.html",
+    "main.0f256936.css.map": "/static/css/main.0f256936.css.map",
+    "main.e9fbd428.js.map": "/static/js/main.e9fbd428.js.map",
+    "787.4a12dff8.chunk.js.map": "/static/js/787.4a12dff8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f256936.css",
+    "static/js/main.e9fbd428.js"
+  ]
+}
