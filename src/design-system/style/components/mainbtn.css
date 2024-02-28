@@ -1,0 +1,18 @@
+.main-btn{
+  background-color: var(--alt-color);
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.main-btn:hover{
+  opacity: 0.9;
+}
+.main-btn svg{
+  margin-right: 10px;
+}

@@ -1,0 +1,18 @@
+.logo{
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 25px;
+  color: var(--main-color);
+  border-radius: 5px;
+}
+@media (max-width: 991px) {
+  .logo{
+    flex: 1;
+  }
+}
+.logo span{
+  background-color: var(--main-color);
+  text-transform: uppercase;
+  color: white;
+  border-radius: 5px;
+}

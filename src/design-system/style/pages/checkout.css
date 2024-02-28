@@ -1,0 +1,207 @@
+.checkout{
+  padding: 40px 0;
+}
+.checkout .container h1{
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.checkout .container .header{
+  padding-top: 20px;
+  color: #333;
+  border-top: 3px solid var(--main-color);
+}
+.checkout .container .header .have-coupeon{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.checkout .container .header .have-coupeon svg{
+  color: var(--main-color);
+  font-size: 25px;
+  margin-right: 10px;
+}
+.checkout .container .header .have-coupeon div{
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.checkout .container .header .have-coupeon div span{
+  color: var(--alt-color);
+  cursor: pointer;
+}
+.checkout .container .header .code-input{
+  height: 0px;
+  min-height: 0px;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.checkout .container .header .code-input.show{
+  min-height: 150px;
+}
+.checkout .container .header .code-input p{
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  padding: 15px 15px 0;
+}
+.checkout .container .header .code-input .input{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0px 15px ;
+}
+.checkout .container .header .code-input .input input{
+  border: none;
+  outline: none;
+  border: 1px solid #999;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.checkout .container .header .code-input .input input::placeholder{
+  text-transform: capitalize;
+}
+.checkout .container .header .code-input .input button{
+  background-color: var(--alt-color);
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-transform: capitalize;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.billing-order{
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 10px;
+  align-items: flex-start;
+}
+.billing-order .billing{
+  /* padding: 10px; */
+}
+.billing-order .billing h3{
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.billing-order .billing form{
+  border-top: 1px solid #888;
+  padding: 10px;
+}
+.billing-order .billing form .flname{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.billing-order .billing form .flname .field{
+  width: 100%;
+}
+.billing-order .billing form .field{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.billing-order .billing form .field label{
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+.billing-order .billing form .field input,
+.billing-order .billing form .field select{
+  border: none;
+  outline: none;
+  padding: 10px;
+  border: 1px solid #888;
+  font-size: 18px;
+  background-color: white;
+  text-transform: capitalize;
+}
+.billing-order .billing form .field input.secin{
+  margin-top: 15px;
+}
+.billing-order .order{
+  border: 2px solid #ccc;
+  padding: 20px;
+}
+.billing-order .order h3{
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.billing-order .order .content .row{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #555;
+  text-transform: capitalize;
+  color: #888;
+}
+.billing-order .order .content .row h4{
+  font-size: 18px;
+  text-transform: capitalize;
+  color: black;
+}
+.billing-order .order .content .how-pay{
+  margin-top: 30px;
+}
+.billing-order .order .content .how-pay .field{
+  margin-bottom: 5px;
+  font-size: 17px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.billing-order .order .content .how-pay .dropdown{
+  padding-top: 10px;
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: 0.5s;
+}
+.billing-order .order .content .how-pay .dropdown.show{
+  grid-template-rows: 1fr;
+}
+.billing-order .order .content .how-pay .dropdown .somet{
+  overflow: hidden;
+}
+.billing-order .order .content .how-pay .box{
+  background-color: #efefef;
+  padding: 10px;
+  position: relative;
+  color: #444;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.billing-order .order .content .how-pay .box::after{
+  content: "";
+  position: absolute;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #efefef;
+  top: -20px;
+  transform: translateX(30px);
+  z-index: 999999;
+  overflow: visible;
+  left: 0;
+}
+.billing-order .order .place-order{
+  background: var(--alt-color);
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 17px;
+  padding: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  color: white;
+  border: none;
+  outline: none;
+  text-align: center;
+}
